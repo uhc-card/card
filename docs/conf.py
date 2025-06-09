@@ -8,7 +8,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 master_doc = 'index'  # ✅ Optional but recommended
 
-html_theme = 'alabaster'
+
 html_static_path = ['_static']
 html_extra_path = ['.']
 
