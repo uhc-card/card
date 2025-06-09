@@ -6,11 +6,9 @@ extensions = []
 templates_path = []
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-master_doc = 'index'  # ✅ Optional but recommended
-
-
+html_theme = 'alabaster'
 html_static_path = ['_static']
-html_extra_path = ['.']
+html_extra_path = ['.']  # ✅ This is required to copy index.html
 
 html_show_sourcelink = False
 html_theme_options = {
