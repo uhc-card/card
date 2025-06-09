@@ -1,4 +1,11 @@
-Welcome to the Docs
-====================
+.. raw:: html
 
-`👉 Click here to open the homepage <index.html>`_
+   <script>
+     if (window.location.pathname.endsWith("/en/latest/") ||
+         window.location.pathname.match(/\/en\/[^/]+\/$/)) {
+       window.location.href = "index.html";
+     }
+   </script>
+   <noscript>
+     <meta http-equiv="refresh" content="0; url=index.html">
+   </noscript>
