@@ -1,7 +1,4 @@
-.. raw:: html
+Welcome to the Docs
+====================
 
-   <script>
-     if (window.location.pathname === "/en/latest/") {
-       window.location.href = "index.html";
-     }
-   </script>
+`👉 Click here to open the homepage <index.html>`_
